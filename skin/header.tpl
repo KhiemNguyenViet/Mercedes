@@ -4,7 +4,7 @@
     <title>{title}</title>
     <meta name="description" content="{description}" />
     <link rel="canonical" href="{link_xem}" />
-    <link rel="icon" href="/skin/css/images/favicon.png" />
+    <link style="color: rgba(233, 237, 241, 0.91);" rel="icon" href="/skin/css/images/logo-mercedes-benz-noir.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8">
     <meta property="og:type" content="website" />

@@ -15,7 +15,7 @@
 <div id="navbar">
     <div>
         <div class="search-bar flex flex-1 margin-0-10 padding-10">
-            <a class="logo" style="padding: 0px 15px;margin-top: auto;" href="/"><img src="/skin/css/images/logo.png" alt="logo animehay" /></a>
+            <a class="logo" style=" padding: 0px 15px;margin-top: auto;" href="/"><img style="height: 80px; width: 90px;" src="/skin/css/images/logo_mercedes.jpg" alt="logo animehay" /></a>
             <form onsubmit="handlingSearch();return false" class="flex" id="form-search" action="/tim-kiem.html">
                 <input type="text" placeholder="Từ khóa tìm kiếm..." class="padding-10 bg-black color-gray" style="width: 100%;height: 18px;" name="keyword">
                 <button type="submit" class="flex h-38 flex-hozi-center bg-black color-gray">

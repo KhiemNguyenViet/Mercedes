@@ -22,7 +22,7 @@
             <div class="ah-carousel">
                 <div class="margin-10-0 bg-black2 flex flex-space-auto">
                     <div class="fs-17 fw-700 padding-0-20 color-gray inline-flex height-40 flex-hozi-center bg-black border-l-t">
-                        <h3 class="section-title"><span>Phim Đề Cử</span></h3>
+                        <h3 class="section-title"><span>Phim Được Đề Cử</span></h3>
                     </div>
                 </div>
                 <div class="ah-frame-bg owl-carousel owl-theme">
