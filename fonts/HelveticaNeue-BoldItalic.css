@@ -1,0 +1,7 @@
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('HelveticaNeue-BoldItalic.eot?#iefix') format('embedded-opentype'),  url('HelveticaNeue-BoldItalic.woff') format('woff'), url('HelveticaNeue-BoldItalic.ttf')  format('truetype'), url('HelveticaNeue-BoldItalic.svg#HelveticaNeue-BoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}

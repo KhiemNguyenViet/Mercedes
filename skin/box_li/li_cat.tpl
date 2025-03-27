@@ -1,0 +1,1 @@
+<a href="/the-loai/{cat_blank}.html">{cat_tieude}</a>

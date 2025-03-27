@@ -1,0 +1,50 @@
+RewriteEngine on
+#RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+RewriteRule ^index.html index.php
+RewriteRule ^tim-kiem.html timkiem.php
+RewriteRule ^lien-he.html lienhe.php
+RewriteRule ^dieu-khoan.html dieukhoan.php
+RewriteRule ^rss rss.php
+RewriteRule ^sitemap.xml sitemap.php
+RewriteRule ^phim-([0-9]+).xml sitemap.php?loai=phim&page=$1
+RewriteRule ^tap-phim-([0-9]+).xml sitemap.php?loai=tap&page=$1
+RewriteRule ^page.xml sitemap.php?loai=page&page=$1
+RewriteRule ^category.xml sitemap.php?loai=category
+RewriteRule ^thong-tin-phim/(.*)-(.*).html view.php?blank=$1&id=$2
+RewriteRule ^xem-phim/(.*)-episode-id-(.*).html watch.php?phim=$1&tap=$2
+RewriteRule ^the-loai/(.*)/trang-(.*).html category.php?cat=$1&page=$2
+RewriteRule ^the-loai/(.*).html category.php?cat=$1
+RewriteRule ^tags/(.*).html tags.php?keyword=$1
+RewriteRule ^loc-phim.html loc_phim.php
+RewriteRule ^tai-khoan.html taikhoan.php
+RewriteRule ^dang-ky.html dangky.php
+RewriteRule ^dang-nhap.html dangnhap.php
+RewriteRule ^dang-xuat.html process_logout.php
+RewriteRule ^quen-mat-khau.html quen_matkhau.php
+RewriteRule ^doi-mat-khau.html doi_matkhau.php
+RewriteRule ^theo-doi.html follow.php
+RewriteRule ^lich-su.html history.php
+RewriteRule ^nap-linh-thach.html nap_linhthach.php
+
+
+RewriteRule ^admincp/login admincp/login.php
+RewriteRule ^admincp/logout admincp/logout.php
+RewriteRule ^admincp/forgot-password admincp/forgot_password.php
+RewriteRule ^admincp/profile admincp/index.php?action=profile
+RewriteRule ^admincp/change-password admincp/index.php?action=change_password
+RewriteRule ^admincp/dashboard admincp/index.php?action=dashboard
+RewriteRule ^admincp/sms-detail admincp/index.php?action=sms_detail
+RewriteRule ^admincp/contact-detail admincp/index.php?action=contact_detail
+RewriteRule ^admincp/post admincp/index.php?action=post
+
+RewriteRule ^admincp/add-(.*) admincp/index.php?action=add_$1
+RewriteRule ^admincp/copy-(.*) admincp/index.php?action=copy_$1
+RewriteRule ^admincp/edit-(.*) admincp/index.php?action=edit_$1
+RewriteRule ^admincp/list-(.*) admincp/index.php?action=list_$1
+RewriteRule ^admincp/update-(.*) admincp/index.php?action=update_$1
+RewriteRule ^admincp/$ admincp/index.php
+ErrorDocument 404 /404.php
+
+

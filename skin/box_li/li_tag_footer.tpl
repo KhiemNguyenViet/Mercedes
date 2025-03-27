@@ -1,0 +1,1 @@
+<a class="ah_key_seo" href="/thong-tin-phim/{link}-{id}.html" title="{tieu_de}">{tieu_de}</a>

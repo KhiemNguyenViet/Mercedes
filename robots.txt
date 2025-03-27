@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /admincp/
+Sitemap: https://nguoiketruyen.com/sitemap.xml

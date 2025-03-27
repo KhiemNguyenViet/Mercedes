@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="HelveticaNeue-Bold_files/intl.css" type="text/css"?>
+<parsererror xmlns="http://www.mozilla.org/newlayout/xml/parsererror.xml">Lỗi Phân tích XML: tham chiếu tới số kí tự sai
+Địa chỉ: http://www.othuong.vn/Sites/OThuong/resources/fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.svg
+Dòng số 5322, Cột 29:<sourcetext>    &lt;hkern u1="&amp;#x10f;" u2="&amp;#x8;" k="-126" /&gt;
+----------------------------^</sourcetext></parsererror>

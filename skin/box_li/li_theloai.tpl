@@ -1,0 +1,1 @@
+<a href="/the-loai/{cat_blank}.html" title="Thể loại {cat_tieude}">{cat_tieude}</a>

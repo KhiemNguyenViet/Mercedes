@@ -1,0 +1,1 @@
+<a href="/loc-phim.html?nam={nam}">{nam}</a>
